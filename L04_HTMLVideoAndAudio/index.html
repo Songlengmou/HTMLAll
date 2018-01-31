@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--    四、音频与视频  -->
+<head>
+    <meta charset="UTF-8">
+    <title>音频与视频</title>
+</head>
+
+<!--
+   audio:播放音频   格式有mp3、ogg、wav等
+   video:播放视频   格式有mp4、mov等
+
+   通用属性：
+   controls
+   autoplay:运行程序后直接播放
+   loop:循环播放
+-->
+<body>
+<!--1.-->
+<!--<audio src="raw/actor.mp3" controls></audio>-->
+<!--<p/>-->
+<!--<video src="raw/videos.mp4" width="400px" height="300px" controls></video>-->
+
+<!--2.-->
+<audio controls autoplay loop>
+    <source src="raw/actor.mp3" type="audio/mp3">
+    无法支持音频播放
+</audio>
+<p/>
+<video controls width="400px" height="300px">
+    <source src="raw/videos.mp4" type="video/mp4">
+</video>
+</body>
+</html>
