@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单提交</title>
+</head>
+<!--  表单提交2  -->   <!--要配合 XAMPP 一起使用  实现前后端提交-->
+
+<!--   后端
+   1.安装一个集成开发环境
+     XAMPP
+     测试安装环境：打开网页输入 localhost 搜索即可
+     启动:服务器(server)
+     需要知道安装的路径：
+       找到 htdocs文件夹   在其里面创建下面的php文件
+    2.编写服务器文件   (php文件)
+        <?php
+         $username=$_POST["username"];
+         echo $username;
+    3.测试服务器文件
+      http://localhost/post.php
+-->
+
+<!--   前端
+    4.action:url地址
+    5.method：get、post
+       get与post区别：
+         (1)get：
+            ①地址栏中可以看到参数    eg：http://localhost/get.php?username=hello
+            ②get请求的地址栏参数大小是有限制的
+            ③get不安全，可以直接被看到
+            ④get有利于资源统一定位
+         (2)post：
+            ①地址栏中看不到参数      eg：http://localhost/post.php
+            ②post没有大小限制
+            ③post安全一些，地址栏中看不到
+-->
+<body>
+<form action="http://localhost/post.php" method="post">      <!--因为我文件里是post请求-->
+    <input type="text" name="username">   <!--name一定要写   因为要和后端匹配-->
+    <input type="submit">
+</form>
+</body>
+</html>
