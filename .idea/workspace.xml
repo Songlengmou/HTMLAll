@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d397d505-c01c-4560-85db-64d96b111e88" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/L01_HTMLBase/index.html" afterPath="$PROJECT_DIR$/L01_HTMLBase/index.html" />
+      <change beforePath="$PROJECT_DIR$/L02_HTMLOne/HelloWorld.html" afterPath="$PROJECT_DIR$/L02_HTMLOne/HelloWorld.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +27,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L01_HTMLBase/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="330">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorld.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L02_HTMLOne/HelloWorld.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L02_HTMLOne/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -76,6 +96,7 @@
         <option value="$PROJECT_DIR$/L06_HTMLSemantic_Label/index.html" />
         <option value="$PROJECT_DIR$/L07_HTMLElement/index.html" />
         <option value="$PROJECT_DIR$/L01_HTMLBase/index.html" />
+        <option value="$PROJECT_DIR$/L02_HTMLOne/HelloWorld.html" />
       </list>
     </option>
   </component>
@@ -119,7 +140,7 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="L01_HTMLBase" type="462c0819:PsiDirectoryNode" />
+              <item name="L02_HTMLOne" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
@@ -185,7 +206,7 @@
       <workItem from="1517275933508" duration="1277000" />
       <workItem from="1517277621542" duration="20808000" />
       <workItem from="1517362440392" duration="24857000" />
-      <workItem from="1517449306661" duration="5162000" />
+      <workItem from="1517449306661" duration="5228000" />
     </task>
     <task id="LOCAL-00001" summary="HTML基本格式">
       <created>1517213752016</created>
@@ -278,11 +299,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517454410334</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="HTML基本的文档结构">
+      <created>1517454495957</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1517454495957</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58883000" />
+    <option name="totallyTimeSpent" value="58949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +363,8 @@
     <MESSAGE value="HTML语义化标签" />
     <MESSAGE value="HTML查缺补漏" />
     <MESSAGE value="内联元素与块元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="内联元素与块元素" />
+    <MESSAGE value="HTML基本的文档结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML基本的文档结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -398,20 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L02_HTMLOne/HelloWorld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/L02_HTMLOne/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -541,8 +556,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L01_HTMLBase/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L02_HTMLOne/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L02_HTMLOne/HelloWorld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
