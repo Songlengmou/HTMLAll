@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--  六、HTML语义化标签
+具体可参考语义化标签文档 https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTML语义化标签</title>
+</head>
+
+<!--
+    之前 都是 div+css    而现在可以用 section标签替换
+
+    section:标签
+-->
+<body>
+<!--具体看文档，以下是说明几个-->
+<!----------------------------------------------章节模块1~6---------------------------------------------->
+<!--之前1-->
+<div>
+    <h1>我是标题</h1>
+    <p>描述当前标题</p>
+</div>
+<!--之后1、section-->
+<section>
+    <h1>我是标题</h1>
+    <p>描述当前标题</p>
+</section>
+
+<!--之前2-->
+<div>
+    <div>
+        <h3>新闻标题</h3>
+        <p>新闻内容</p>
+    </div>
+    <div>
+        <h3>新闻标题</h3>
+        <p>新闻内容</p>
+    </div>
+    <div>
+        <h3>新闻标题</h3>
+        <p>新闻内容</p>
+    </div>
+</div>
+<!--之后2、article-->
+<section>
+    <article>
+        <h3>新闻标题</h3>
+        <p>新闻内容</p>
+    </article>
+    <article>
+        <h3>新闻标题</h3>
+        <p>新闻内容</p>
+    </article>
+    <article>
+        <h3>新闻标题</h3>
+        <p>新闻内容</p>
+    </article>
+</section>
+<!--3、nav-->
+<nav>
+    <ul>
+        <li><a href="url">新闻</a></li>     <!--url:地址,可随意-->
+        <li><a href="#">hao123</a></li>
+    </ul>
+</nav>
+
+<div>
+    <ul>
+        <li>把百度设为首页</li>
+        <li>关于百度</li>
+    </ul>
+</div>
+<!--4、aside-->
+<article>
+    <h3>新闻标题</h3>
+    <p>新闻内容</p>
+    <aside>新闻来源</aside>
+</article>
+<!--5、header与footer-->
+<article>
+    <header>文章头部</header>
+    <p>文章内容</p>
+    <footer>文章尾部</footer>
+</article>
+<!--6、main 有且只能存在一个main标签-->
+<main>
+    <p>重要的内容</p>
+    <p>有且只能存在一个main标签</p>
+</main>
+<!----------------------------------------------组织内容---------------------------------------------->
+<!--figure与figcaption(图片描述,而不是文章描述)-->
+<figure>
+    <p>文章内容</p>
+    <img src="地址">
+    <figcaption>图片描述</figcaption>
+</figure>
+<!--mark:高亮文字-->
+<p>这是一个
+    <mark>重要的</mark>
+    文件
+</p>
+
+</body>
+</html>
